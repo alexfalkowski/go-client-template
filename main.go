@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/alexfalkowski/go-client-template/cmd"
-	scmd "github.com/alexfalkowski/go-service/cmd"
+	c "github.com/alexfalkowski/go-service/cmd"
 )
 
 func main() {
@@ -13,10 +13,10 @@ func main() {
 	}
 }
 
-func command() *scmd.Command {
-	command := scmd.New(cmd.Version)
+func command() *c.Command {
+	command := c.New(cmd.Version)
 
-	command.AddServer(cmd.ServerOptions...)
+	command.AddClient(cmd.ClientOptions...)
 
 	return command
 }
