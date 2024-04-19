@@ -1,8 +1,8 @@
 package cmd
 
 import (
+	"github.com/alexfalkowski/go-client-template/client"
 	"github.com/alexfalkowski/go-client-template/config"
-	"github.com/alexfalkowski/go-client-template/server/health"
 	"github.com/alexfalkowski/go-client-template/transport"
 	"github.com/alexfalkowski/go-service/debug"
 	"github.com/alexfalkowski/go-service/feature"
@@ -12,9 +12,10 @@ import (
 	"go.uber.org/fx"
 )
 
-// ServerOptions for cmd.
-var ServerOptions = []fx.Option{
-	fx.NopLogger, runtime.Module, debug.Module, feature.Module,
-	telemetry.Module, metrics.Module, config.Module,
-	health.Module, transport.Module, Module,
+// ClientOptions for cmd.
+var ClientOptions = []fx.Option{
+	fx.NopLogger, runtime.Module, feature.Module,
+	transport.Module, debug.Module,
+	telemetry.Module, metrics.Module,
+	config.Module, client.Module, Module,
 }

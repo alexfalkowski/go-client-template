@@ -3,9 +3,9 @@ module github.com/alexfalkowski/go-client-template
 go 1.22.2
 
 require (
-	github.com/alexfalkowski/go-health v1.16.1
 	github.com/alexfalkowski/go-service v1.154.6
 	go.uber.org/fx v1.21.0
+	go.uber.org/zap v1.27.0
 )
 
 require (
@@ -102,7 +102,6 @@ require (
 	go.uber.org/automaxprocs v1.5.3 // indirect
 	go.uber.org/dig v1.17.1 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	go.uber.org/zap v1.27.0 // indirect
 	golang.org/x/crypto v0.21.0 // indirect
 	golang.org/x/exp v0.0.0-20240205201215-2c58cdc269a3 // indirect
 	golang.org/x/net v0.23.0 // indirect

@@ -11,5 +11,4 @@ var Module = fx.Options(
 	fx.Provide(NewConfigurator),
 	marshaller.Module,
 	config.ConfigModule,
-	fx.Provide(healthConfig),
 )
