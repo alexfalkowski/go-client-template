@@ -1,10 +1,10 @@
 version: 2.1
 
 jobs:
-  build-service:
+  build-client:
     docker:
       - image: alexfalkowski/go:1.22-ruby
-    working_directory: ~/go-service-template
+    working_directory: ~/go-client-template
     steps:
       - checkout
       - run: git submodule sync
@@ -12,35 +12,35 @@ jobs:
       - restore_cache:
           name: restore go deps
           keys:
-            - go-service-template-go-cache-{{ checksum "go.sum" }}
-            - go-service-template-go-cache-
+            - go-client-template-go-cache-{{ checksum "go.sum" }}
+            - go-client-template-go-cache-
       - restore_cache:
           name: restore ruby deps
           keys:
-            - go-service-template-ruby-cache-{{ checksum "test/Gemfile.lock" }}
-            - go-service-template-ruby-cache-
+            - go-client-template-ruby-cache-{{ checksum "test/Gemfile.lock" }}
+            - go-client-template-ruby-cache-
       - run: make dep
       - save_cache:
           name: save go deps
-          key: go-service-template-go-cache-{{ checksum "go.sum" }}
+          key: go-client-template-go-cache-{{ checksum "go.sum" }}
           paths:
             - /home/circleci/go/pkg/mod
       - save_cache:
           name: save ruby deps
-          key: go-service-template-ruby-cache-{{ checksum "test/Gemfile.lock" }}
+          key: go-client-template-ruby-cache-{{ checksum "test/Gemfile.lock" }}
           paths:
             - test/vendor
       - restore_cache:
           name: restore go build cache
           keys:
-            - go-service-template-go-build-cache-{{ checksum "go.sum" }}
-            - go-service-template-go-build-cache-
+            - go-client-template-go-build-cache-{{ checksum "go.sum" }}
+            - go-client-template-go-build-cache-
       - run: make lint
       - run: make sec
       - run: make features
       - save_cache:
           name: save go build cache
-          key: go-service-template-go-build-cache-{{ checksum "go.sum" }}
+          key: go-client-template-go-build-cache-{{ checksum "go.sum" }}
           paths:
             - /home/circleci/.cache/go-build
       - run: make goveralls
@@ -52,7 +52,7 @@ jobs:
   build-docker:
     docker:
       - image: alexfalkowski/go:1.22-ruby
-    working_directory: ~/go-service-template
+    working_directory: ~/go-client-template
     steps:
       - checkout
       - run: git submodule sync
@@ -64,7 +64,7 @@ jobs:
   release:
     docker:
       - image: alexfalkowski/release:3.1
-    working_directory: ~/go-service-template
+    working_directory: ~/go-client-template
     steps:
       - checkout
       - run: git submodule sync
@@ -74,7 +74,7 @@ jobs:
   push-docker:
     docker:
       - image: alexfalkowski/go:1.22-ruby
-    working_directory: ~/go-service-template
+    working_directory: ~/go-client-template
     steps:
       - checkout
       - run: git submodule sync
@@ -87,14 +87,14 @@ jobs:
     resource_class: large
 
 workflows:
-  go-service-template:
+  go-client-template:
     jobs:
-      - build-service
+      - build-client
       - build-docker
       - release:
           context: gh
           requires:
-            - build-service
+            - build-client
             - build-docker
           filters:
             branches:

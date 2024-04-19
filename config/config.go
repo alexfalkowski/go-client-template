@@ -1,7 +1,7 @@
 package config
 
 import (
-	"github.com/alexfalkowski/go-service-template/health"
+	"github.com/alexfalkowski/go-client-template/health"
 	"github.com/alexfalkowski/go-service/config"
 )
 
