@@ -3,7 +3,7 @@ package main
 import (
 	"os"
 
-	"github.com/alexfalkowski/go-service-template/cmd"
+	"github.com/alexfalkowski/go-client-template/cmd"
 	scmd "github.com/alexfalkowski/go-service/cmd"
 )
 
