@@ -4,7 +4,7 @@ go 1.22.2
 
 require (
 	github.com/alexfalkowski/go-service v1.164.0
-	go.uber.org/fx v1.21.0
+	go.uber.org/fx v1.21.1
 	go.uber.org/zap v1.27.0
 )
 
