@@ -1,5 +1,4 @@
 [![CircleCI](https://circleci.com/gh/alexfalkowski/go-client-template.svg?style=svg)](https://circleci.com/gh/alexfalkowski/go-client-template)
-[![Coverage Status](https://coveralls.io/repos/github/alexfalkowski/go-client-template/badge.svg?branch=master)](https://coveralls.io/github/alexfalkowski/go-client-template?branch=master)
 
 # Client
 
