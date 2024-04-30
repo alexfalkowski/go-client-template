@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.10.2](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.10.2) - 2024-04-30
+
+- [`a2da543`](https://github.com/alexfalkowski/go-client-template/commit/a2da5432c2d6657d32f14d146c19c65ff341ec6e) fix(deps): upgraded github.com/alexfalkowski/go-service to v1.172.4 (#36)
+- [`6b4df0f`](https://github.com/alexfalkowski/go-client-template/commit/6b4df0f5286c1e0021aaa1d181b2d57a2163cb44) test(deps): bump rubocop from 1.63.3 to 1.63.4 in /test (#35)
+- [`87e8a5d`](https://github.com/alexfalkowski/go-client-template/commit/87e8a5d7a77978f0062669a36f24b1ccd5593ea3) build(ci): cover all (#34)
+- [`350ff13`](https://github.com/alexfalkowski/go-client-template/commit/350ff1341be44ce55fadb437ee7bd28240646745) build(deps): bump bin from `3976e45` to `e47704b` (#33)
+- [`c8955fb`](https://github.com/alexfalkowski/go-client-template/commit/c8955fb210d84a16314835bebc92c76e3c15a10d) build(ci): html coverage (#32)
+- [`4fe1808`](https://github.com/alexfalkowski/go-client-template/commit/4fe1808a188307b68c66b72265c4d70ab384d57d) build(deps): bump bin from `1755d45` to `3976e45` (#31)
+- [`cc170c4`](https://github.com/alexfalkowski/go-client-template/commit/cc170c4b681fc0659463a15758568ae2a50b0cb9) build(deps): bump bin from `6fee1b8` to `1755d45` (#30)
+- [`2b15939`](https://github.com/alexfalkowski/go-client-template/commit/2b159395f4f3aee679db4e0b19fbf32505d07e70) build(coveralls): remove goveralls (#29)
+
 ## [v0.10.1](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.10.1) - 2024-04-27
 
 - [`de050a3`](https://github.com/alexfalkowski/go-client-template/commit/de050a364484286add0e3d7887289556779cff4e) fix(deps): bump github.com/alexfalkowski/go-service from 1.172.0 to 1.172.1 (#28)
