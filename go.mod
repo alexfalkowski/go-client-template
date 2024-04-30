@@ -3,7 +3,7 @@ module github.com/alexfalkowski/go-client-template
 go 1.22.2
 
 require (
-	github.com/alexfalkowski/go-service v1.172.4
+	github.com/alexfalkowski/go-service v1.172.5
 	go.uber.org/fx v1.21.1
 	go.uber.org/zap v1.27.0
 )
