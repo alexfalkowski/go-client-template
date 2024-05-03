@@ -1,5 +1,4 @@
 environment: development
 telemetry:
   logger:
-    enabled: true
     level: info
