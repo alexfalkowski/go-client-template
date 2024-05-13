@@ -4,7 +4,7 @@ import (
 	"os"
 
 	"github.com/alexfalkowski/go-client-template/cmd"
-	c "github.com/alexfalkowski/go-service/cmd"
+	sc "github.com/alexfalkowski/go-service/cmd"
 )
 
 func main() {
@@ -13,10 +13,11 @@ func main() {
 	}
 }
 
-func command() *c.Command {
-	command := c.New(cmd.Version)
+func command() *sc.Command {
+	c := sc.New(cmd.Version)
+	c.RegisterInput("")
+	c.RegisterOutput("")
+	c.AddClient(cmd.ClientOptions...)
 
-	command.AddClient(cmd.ClientOptions...)
-
-	return command
+	return c
 }
