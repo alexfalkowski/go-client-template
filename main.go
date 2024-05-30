@@ -15,9 +15,9 @@ func main() {
 
 func command() *sc.Command {
 	c := sc.New(cmd.Version)
-	c.RegisterInput("")
-	c.RegisterOutput("")
-	c.AddClient(cmd.ClientOptions...)
+	cl := c.AddClient(cmd.ClientOptions...)
+	c.RegisterInput(cl, "")
+	c.RegisterOutput(cl, "")
 
 	return c
 }
