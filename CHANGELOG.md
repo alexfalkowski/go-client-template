@@ -6,6 +6,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.31.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.31.0) - 2024-06-09
+
+- [`6ee0023`](https://github.com/alexfalkowski/go-client-template/commit/6ee00234334ecc0b6fd07fe6eafe9767b8ba39dd) feat(deps): upgraded github.com/alexfalkowski/go-service to v1.214.1 (#101)
+- [`41da45d`](https://github.com/alexfalkowski/go-client-template/commit/41da45dae2037488b47fe8a129e7f003b14027df) build(deps): bump bin from `955891d` to `897d5f1` (#100)
+- [`4c5eac9`](https://github.com/alexfalkowski/go-client-template/commit/4c5eac91c8137dce14736b36d9c69fd4c5a774bb) build(ci): fix bundler dependabot (#99)
+- [`c5c64d1`](https://github.com/alexfalkowski/go-client-template/commit/c5c64d15cbef63ae820f170ed3ffb7317645f533) build(ci): add dependabot (#98)
+- [`7647853`](https://github.com/alexfalkowski/go-client-template/commit/7647853ba17a167718b2d88fd815310e2d1b33bf) build(ci): use alexfalkowski/go:1.22 (#97)
+- [`67104f3`](https://github.com/alexfalkowski/go-client-template/commit/67104f32dccc94b5eebbf9a198c51460d57387ab) build(deps): bump bin from `c4fd841` to `955891d` (#96)
+
 ## [v0.30.2](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.30.2) - 2024-06-05
 
 - [`981b3f8`](https://github.com/alexfalkowski/go-client-template/commit/981b3f806ae7fa77663c29f270376eb72f161096) fix(deps): upgraded github.com/alexfalkowski/go-service to v1.213.3 (#95)
