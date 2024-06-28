@@ -1,4 +1,5 @@
 [![CircleCI](https://circleci.com/gh/alexfalkowski/go-client-template.svg?style=svg)](https://circleci.com/gh/alexfalkowski/go-client-template)
+[![codecov](https://codecov.io/gh/alexfalkowski/go-client-template/graph/badge.svg?token=QSRFU8VNST)](https://codecov.io/gh/alexfalkowski/go-client-template)
 
 # Client
 
