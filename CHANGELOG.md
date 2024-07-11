@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.57.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.57.0) - 2024-07-11
+
+- [`96ac789`](https://github.com/alexfalkowski/go-client-template/commit/96ac789bbf2bc61ccaf593dece01d469f8c3c908) feat(deps): bump github.com/alexfalkowski/go-service from 1.246.0 to 1.247.0 (#141)
+- [`63810d5`](https://github.com/alexfalkowski/go-client-template/commit/63810d5e4d9b9d3ba67ac64d0bac3484a8637c3b) test(deps): bump rubocop from 1.64.1 to 1.65.0 in /test (#140)
+- [`f9406fc`](https://github.com/alexfalkowski/go-client-template/commit/f9406fca59d3bef2bc468051df81a93be6974572) test(deps): bump ruby-lsp from 0.17.4 to 0.17.6 in /test (#139)
+
 ## [v0.56.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.56.0) - 2024-07-09
 
 - [`56a8709`](https://github.com/alexfalkowski/go-client-template/commit/56a8709b6df037bdacd6de34b54b21a7b63cd252) feat(deps): upgraded github.com/alexfalkowski/go-service to v1.246.0 (#138)
