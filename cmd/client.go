@@ -13,7 +13,7 @@ import (
 
 // ClientOptions for cmd.
 var ClientOptions = []fx.Option{
-	feature.Module,
+	feature.NoopModule,
 	compress.Module, encoding.Module,
 	telemetry.Module, metrics.Module,
 	config.Module, client.Module, Module,
