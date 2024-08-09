@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.73.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.73.0) - 2024-08-09
+
+- [`1b69c80`](https://github.com/alexfalkowski/go-client-template/commit/1b69c8076e2c7aa97696d15999081ba59b6dcb32) feat(deps): bump github.com/alexfalkowski/go-service from 1.272.0 to 1.273.1 (#172)
+- [`6676de2`](https://github.com/alexfalkowski/go-client-template/commit/6676de2f79963f0774d4d5d1056847e8129a4ab2) test(deps): bump nonnative from 1.81.0 to 1.82.0 in /test (#173)
+- [`baaea3a`](https://github.com/alexfalkowski/go-client-template/commit/baaea3aec0568821e63e1d12a8c4f94fa85e52dc) test(deps): bump ruby-lsp from 0.17.11 to 0.17.12 in /test (#174)
+- [`0fe9ca3`](https://github.com/alexfalkowski/go-client-template/commit/0fe9ca3a9e98c421834536720625f07c9d523c7d) build(deps): bump bin from `44badfa` to `808558f` (#171)
+
 ## [v0.72.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.72.0) - 2024-08-08
 
 - [`8de780a`](https://github.com/alexfalkowski/go-client-template/commit/8de780a9e8c37cb5cc6eb3470e69171369ed34e7) feat(deps): upgraded github.com/alexfalkowski/go-service to v1.272.0 (#170)
