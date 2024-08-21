@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.79.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.79.0) - 2024-08-21
+
+- [`16b1674`](https://github.com/alexfalkowski/go-client-template/commit/16b16741ed403c448399533bbf2f15f639afb23a) feat(deps): bump github.com/alexfalkowski/go-service from 1.278.0 to 1.279.0 (#186)
+- [`221461c`](https://github.com/alexfalkowski/go-client-template/commit/221461c4d48ae3b4ccaa8a2c0339c6ca143d698c) test(deps): bump rspec-expectations from 3.13.1 to 3.13.2 in /test (#187)
+- [`a13c158`](https://github.com/alexfalkowski/go-client-template/commit/a13c1581034e1f2ba7b8bc7295b7a680402fb6df) test(deps): bump ruby-lsp from 0.17.14 to 0.17.15 in /test (#188)
+- [`461c21c`](https://github.com/alexfalkowski/go-client-template/commit/461c21c9604bc2cdca49ed09cd15af65cec7b9f5) test(deps): bump ruby-lsp from 0.17.13 to 0.17.14 in /test (#185)
+- [`525142e`](https://github.com/alexfalkowski/go-client-template/commit/525142e15e6f872fc4ea422309eb0426cd265f5c) build(ruby): update ruby to v3.3.4 (#184)
+
 ## [v0.78.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.78.0) - 2024-08-19
 
 - [`fed9273`](https://github.com/alexfalkowski/go-client-template/commit/fed927340fcabda37b01d2f7d031f52c539d5617) feat(deps): bump github.com/alexfalkowski/go-service from 1.277.0 to 1.278.0 (#183)
