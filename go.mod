@@ -3,7 +3,7 @@ module github.com/alexfalkowski/go-client-template
 go 1.23
 
 require (
-	github.com/alexfalkowski/go-service v1.280.0
+	github.com/alexfalkowski/go-service v1.280.1
 	go.uber.org/fx v1.22.2
 	go.uber.org/zap v1.27.0
 )
@@ -76,7 +76,7 @@ require (
 	github.com/pbnjay/memory v0.0.0-20210728143218-7b4eea64cf58 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/power-devops/perfstat v0.0.0-20240221224432-82ca36839d55 // indirect
-	github.com/prometheus/client_golang v1.20.1 // indirect
+	github.com/prometheus/client_golang v1.20.2 // indirect
 	github.com/prometheus/client_model v0.6.1 // indirect
 	github.com/prometheus/common v0.55.0 // indirect
 	github.com/prometheus/procfs v0.15.1 // indirect
