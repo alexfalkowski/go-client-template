@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.89.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.89.0) - 2024-09-06
+
+- [`9f4dd3d`](https://github.com/alexfalkowski/go-client-template/commit/9f4dd3ddf09e67e9684a3a0310c35ed1f8ad2d9c) feat(deps): bump golang from 1.23.0-bullseye to 1.23.1-bullseye (#210)
+- [`f2acd84`](https://github.com/alexfalkowski/go-client-template/commit/f2acd84310a76e3a3338897f9755725c6d561705) test(ruby): remove version (#209)
+- [`b4c209a`](https://github.com/alexfalkowski/go-client-template/commit/b4c209a89169a1da463e6039d8b83c03dcbd9d44) build(deps): bump bin from `41b7c8b` to `1eca781` (#194)
+- [`496fbe7`](https://github.com/alexfalkowski/go-client-template/commit/496fbe7f39edddfdc79ad0a7d391771fda45bb82) test(deps): bump rubocop from 1.66.0 to 1.66.1 in /test (#208)
+
 ## [v0.88.1](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.88.1) - 2024-09-02
 
 - [`22a0832`](https://github.com/alexfalkowski/go-client-template/commit/22a0832713ecdb08bde9532fcdce52b935614427) fix(deps): upgraded github.com/alexfalkowski/go-service to v1.288.1 (#207)
