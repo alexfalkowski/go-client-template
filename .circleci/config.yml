@@ -97,7 +97,8 @@ workflows:
   go-client-template:
     jobs:
       - build-client
-      - build-docker
+      - build-docker:
+          context: gh
       - release:
           context: gh
           requires:
