@@ -1,12 +1,9 @@
 version: 2.1
 
-orbs:
-  codecov: codecov/codecov@4.0.1
-
 jobs:
   build-client:
     docker:
-      - image: alexfalkowski/go:1.4
+      - image: alexfalkowski/go:1.5
     working_directory: ~/go-client-template
     steps:
       - checkout
@@ -56,7 +53,7 @@ jobs:
     resource_class: large
   build-docker:
     docker:
-      - image: alexfalkowski/go:1.4
+      - image: alexfalkowski/go:1.5
     working_directory: ~/go-client-template
     steps:
       - checkout
@@ -79,7 +76,7 @@ jobs:
     resource_class: large
   push-docker:
     docker:
-      - image: alexfalkowski/go:1.4
+      - image: alexfalkowski/go:1.5
     working_directory: ~/go-client-template
     steps:
       - checkout
