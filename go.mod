@@ -5,7 +5,7 @@ go 1.23
 toolchain go1.23.0
 
 require (
-	github.com/alexfalkowski/go-service v1.368.0
+	github.com/alexfalkowski/go-service v1.368.1
 	go.uber.org/fx v1.23.0
 	go.uber.org/zap v1.27.0
 )
