@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.168.1](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.168.1) - 2025-01-18
+
+- [`0a5dcab`](https://github.com/alexfalkowski/go-client-template/commit/0a5dcab45ab1a789d68fb8c67ae5ba3762b4b5a1) fix(docker): add space (#359)
+
 ## [v0.168.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.168.0) - 2025-01-18
 
 - [`87085d4`](https://github.com/alexfalkowski/go-client-template/commit/87085d4af2c81924c3351f1a374c8f4191782058) feat(docker): create a statically linked binary (#358)
