@@ -10,10 +10,9 @@ func main() {
 }
 
 func command() *sc.Command {
-	c := sc.New(cmd.Version)
-	cl := c.AddClient("client", "Start client", cmd.ClientOptions...)
-	c.RegisterInput(cl, "")
-	c.RegisterOutput(cl, "")
+	command := sc.New(cmd.Version)
 
-	return c
+	cmd.RegisterClient(command)
+
+	return command
 }
