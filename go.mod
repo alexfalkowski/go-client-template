@@ -1,11 +1,9 @@
 module github.com/alexfalkowski/go-client-template
 
-go 1.23.3
-
-toolchain go1.23.6
+go 1.24.0
 
 require (
-	github.com/alexfalkowski/go-service v1.428.0
+	github.com/alexfalkowski/go-service v1.429.0
 	go.uber.org/fx v1.23.0
 	go.uber.org/zap v1.27.0
 )
