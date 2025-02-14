@@ -13,7 +13,7 @@ import (
 func RegisterClient(command *cmd.Command) {
 	client := command.AddClient("client", "Start client",
 		module.Module, feature.Module, telemetry.Module,
-		config.Module, client.Module, Module,
+		config.Module, client.Module, cmd.Module,
 	)
 
 	command.RegisterInput(client, "")
