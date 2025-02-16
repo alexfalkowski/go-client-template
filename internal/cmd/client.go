@@ -5,17 +5,18 @@ import (
 	"github.com/alexfalkowski/go-client-template/internal/config"
 	"github.com/alexfalkowski/go-service/cmd"
 	"github.com/alexfalkowski/go-service/feature"
+	"github.com/alexfalkowski/go-service/flags"
 	"github.com/alexfalkowski/go-service/module"
 	"github.com/alexfalkowski/go-service/telemetry"
 )
 
 // RegisterClient for cmd.
 func RegisterClient(command *cmd.Command) {
-	client := command.AddClient("client", "Start client",
+	flags := flags.NewFlagSet("client")
+
+	command.RegisterInput(flags, "")
+	command.AddClient("client", "Start client", flags,
 		module.Module, feature.Module, telemetry.Module,
 		config.Module, client.Module, cmd.Module,
 	)
-
-	command.RegisterInput(client, "")
-	command.RegisterOutput(client, "")
 }
