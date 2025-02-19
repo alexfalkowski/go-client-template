@@ -6,7 +6,6 @@ import (
 	"github.com/alexfalkowski/go-service/cmd"
 	"github.com/alexfalkowski/go-service/telemetry/logger"
 	"go.uber.org/fx"
-	"go.uber.org/zap"
 )
 
 // Params for config.
@@ -14,7 +13,7 @@ type Params struct {
 	fx.In
 
 	Lifecycle fx.Lifecycle
-	Logger    *zap.Logger
+	Logger    *logger.Logger
 }
 
 // Start the client.
