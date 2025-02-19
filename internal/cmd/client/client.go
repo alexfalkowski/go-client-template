@@ -4,7 +4,7 @@ import (
 	"context"
 
 	"github.com/alexfalkowski/go-service/cmd"
-	tz "github.com/alexfalkowski/go-service/telemetry/logger/zap"
+	"github.com/alexfalkowski/go-service/telemetry/logger"
 	"go.uber.org/fx"
 	"go.uber.org/zap"
 )
@@ -20,6 +20,6 @@ type Params struct {
 // Start the client.
 func Start(params Params) {
 	cmd.Start(params.Lifecycle, func(ctx context.Context) {
-		params.Logger.Info("awesome client", tz.Meta(ctx)...)
+		params.Logger.Info("awesome client", logger.Meta(ctx)...)
 	})
 }
