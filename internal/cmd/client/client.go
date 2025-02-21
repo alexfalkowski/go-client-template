@@ -2,7 +2,6 @@ package client
 
 import (
 	"context"
-	"log/slog"
 
 	"github.com/alexfalkowski/go-service/cmd"
 	"github.com/alexfalkowski/go-service/telemetry/logger"
@@ -20,6 +19,6 @@ type Params struct {
 // Start the client.
 func Start(params Params) {
 	cmd.Start(params.Lifecycle, func(ctx context.Context) {
-		params.Logger.LogAttrs(ctx, slog.LevelInfo, "awesome client", nil)
+		params.Logger.Log(ctx, logger.NewText("awesome client"))
 	})
 }
