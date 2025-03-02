@@ -1,5 +1,5 @@
 environment: development
 telemetry:
   logger:
-    kind: stdout
+    kind: text
     level: info
