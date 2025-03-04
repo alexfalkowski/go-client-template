@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.259.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.259.0) - 2025-03-04
+
+- [`8c2b0f6`](https://github.com/alexfalkowski/go-client-template/commit/8c2b0f6539c54131f98692ec73f69c6e77db36ca) feat(deps): upgraded github.com/alexfalkowski/go-service to v1.477.0 (#490)
+- [`37efb5e`](https://github.com/alexfalkowski/go-client-template/commit/37efb5e109c43e313267cc9c41141d5616d28e5d) build(ci): use the name of the job as it only runs on master (#489)
+- [`6775daf`](https://github.com/alexfalkowski/go-client-template/commit/6775daf67ddbb2f7328fd6e9a5901b21fdc5b20a) build(ci): always pull (#488)
+- [`06aba9f`](https://github.com/alexfalkowski/go-client-template/commit/06aba9fdc6bd6fdb812645decbc2fc346c29f9d2) build(ci): use serial-group (#487)
+
 ## [v0.258.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.258.0) - 2025-03-03
 
 - [`0c045b8`](https://github.com/alexfalkowski/go-client-template/commit/0c045b85f0b94db25f18711147819edd9c6a5c80) feat(deps): upgraded github.com/alexfalkowski/go-service to v1.476.0 (#486)
