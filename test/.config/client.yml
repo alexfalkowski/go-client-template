@@ -1,4 +1,6 @@
 environment: development
+id:
+  kind: uuid
 telemetry:
   logger:
     kind: text
