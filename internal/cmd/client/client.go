@@ -18,7 +18,9 @@ type Params struct {
 
 // Start the client.
 func Start(params Params) {
-	cmd.Start(params.Lifecycle, func(ctx context.Context) {
+	cmd.Start(params.Lifecycle, func(ctx context.Context) error {
 		params.Logger.Log(ctx, logger.NewText("awesome client"))
+
+		return nil
 	})
 }
