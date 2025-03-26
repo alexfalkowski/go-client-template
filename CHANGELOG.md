@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.285.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.285.0) - 2025-03-26
+
+- [`b02bad3`](https://github.com/alexfalkowski/go-client-template/commit/b02bad3578b2688b39d0df8ced60b0213a3889cd) feat(deps): upgraded github.com/alexfalkowski/go-service to v1.515.0 (#527)
+- [`f328f21`](https://github.com/alexfalkowski/go-client-template/commit/f328f217c0558ca07e7a67454a2ae6f79c32328f) build(deps): bump bin from `b887116` to `446c480` (#526)
+- [`f63e4a8`](https://github.com/alexfalkowski/go-client-template/commit/f63e4a86d40da65eeb20dd9678355f9c55a4328b) build(ci): add help (#525)
+- [`1be65d8`](https://github.com/alexfalkowski/go-client-template/commit/1be65d8c584310da439e41a59f94c3469bb06933) build(deps): bump bin from `8e1a9ac` to `b887116` (#524)
+
 ## [v0.284.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.284.0) - 2025-03-25
 
 - [`660cbbd`](https://github.com/alexfalkowski/go-client-template/commit/660cbbd239fb60f8a8d9f44e7215a3f81f93b6e5) feat(deps): upgraded github.com/alexfalkowski/go-service to v1.514.0 (#523)
