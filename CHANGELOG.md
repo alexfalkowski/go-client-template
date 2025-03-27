@@ -6,6 +6,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.286.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.286.0) - 2025-03-28
+
+- [`745b330`](https://github.com/alexfalkowski/go-client-template/commit/745b3301fec3a27865c598a60cfb4778d5434bcb) feat(deps): upgraded github.com/alexfalkowski/go-service to v1.516.0 (#538)
+- [`413a07d`](https://github.com/alexfalkowski/go-client-template/commit/413a07d585b6dab1211e0e390140cd5e1bd1dadd) build(deps): bump bin from `db4042b` to `16e2296` (#537)
+- [`089c51a`](https://github.com/alexfalkowski/go-client-template/commit/089c51add8b3e727c4bbb4d436686881c7f55a7b) build(ci): add clean (#536)
+- [`3f9a238`](https://github.com/alexfalkowski/go-client-template/commit/3f9a238dccb7852d86ec1a83ab63df74591257d9) build(deps): bump bin from `1dfe733` to `db4042b` (#535)
+- [`d6c77ab`](https://github.com/alexfalkowski/go-client-template/commit/d6c77ab7503d93c8fb133a0056e618c32e42b93e) build(ci): make dep (#534)
+- [`7336d62`](https://github.com/alexfalkowski/go-client-template/commit/7336d620930ca9b57554c62b8f95c5bd0c939195) build(ci): make deps (#533)
+- [`1111070`](https://github.com/alexfalkowski/go-client-template/commit/1111070358f54683d2dffc336ac87db8f1b2b8ae) build(deps): bump bin from `c661929` to `1dfe733` (#532)
+- [`b8590b4`](https://github.com/alexfalkowski/go-client-template/commit/b8590b48e746cc8f5e5ea5eab9e132aeb7eaa533) build(ci): use alexfalkowski/go:2.3 (#531)
+- [`a3321cd`](https://github.com/alexfalkowski/go-client-template/commit/a3321cd12b10a77a0e0e0cfdbf29f3913a1aa9c1) test(deps): bump rubocop from 1.74.0 to 1.75.1 in /test (#529)
+- [`4844976`](https://github.com/alexfalkowski/go-client-template/commit/484497617260619170fe0a1b7ffd5db380c3cb54) build(deps): bump bin from `446c480` to `c661929` (#528)
+
 ## [v0.285.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.285.0) - 2025-03-26
 
 - [`b02bad3`](https://github.com/alexfalkowski/go-client-template/commit/b02bad3578b2688b39d0df8ced60b0213a3889cd) feat(deps): upgraded github.com/alexfalkowski/go-service to v1.515.0 (#527)
