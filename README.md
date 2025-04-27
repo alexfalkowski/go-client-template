@@ -4,7 +4,6 @@
 [![Go Reference](https://pkg.go.dev/badge/github.com/alexfalkowski/go-client-template.svg)](https://pkg.go.dev/github.com/alexfalkowski/go-client-template)
 [![Stability: Active](https://masterminds.github.io/stability/active.svg)](https://masterminds.github.io/stability/active.html)
 
-
 # Client
 
 Make sure you add the name of the client what what it is.
@@ -40,8 +39,8 @@ The project follows the structure in [golang-standards/project-layout](https://g
 ### Dependencies
 
 Please make sure that you have the following installed:
-- [Ruby](.ruby-version)
-- [Golang](go.mod)
+- [Ruby](https://www.ruby-lang.org/en/)
+- [Golang](https://go.dev/)
 
 ### Style
 
@@ -50,7 +49,6 @@ This project favours the [Uber Go Style Guide](https://github.com/uber-go/guide/
 ### Setup
 
 Check out [CI](.circleci/config.yml).
-
 
 ### Changes
 
