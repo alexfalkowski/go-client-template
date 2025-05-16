@@ -3,7 +3,7 @@ module github.com/alexfalkowski/go-client-template
 go 1.24.0
 
 require (
-	github.com/alexfalkowski/go-service v1.609.0
+	github.com/alexfalkowski/go-service v1.610.0
 	go.uber.org/fx v1.24.0
 )
 
@@ -16,6 +16,7 @@ require (
 	github.com/KimMachineGun/automemlimit v0.7.2 // indirect
 	github.com/aead/cmac v0.0.0-20160719120800-7af84192f0b1 // indirect
 	github.com/arl/statsviz v0.6.0 // indirect
+	github.com/avfs/avfs v0.35.0 // indirect
 	github.com/beevik/ntp v1.4.3 // indirect
 	github.com/beevik/nts v0.2.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
