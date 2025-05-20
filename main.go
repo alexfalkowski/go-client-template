@@ -4,10 +4,10 @@ import (
 	"context"
 
 	"github.com/alexfalkowski/go-client-template/internal/cmd"
-	sc "github.com/alexfalkowski/go-service/cmd"
+	"github.com/alexfalkowski/go-service/v2/cli"
 )
 
-var app = sc.NewApplication(func(command *sc.Command) {
+var app = cli.NewApplication(func(command cli.Commander) {
 	cmd.RegisterClient(command)
 })
 
