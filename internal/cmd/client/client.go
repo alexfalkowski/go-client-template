@@ -3,7 +3,6 @@ package client
 import (
 	"context"
 
-	"github.com/alexfalkowski/go-service/cmd"
 	"github.com/alexfalkowski/go-service/telemetry/logger"
 	"go.uber.org/fx"
 )
@@ -18,9 +17,11 @@ type Params struct {
 
 // Start the client.
 func Start(params Params) {
-	cmd.Start(params.Lifecycle, func(ctx context.Context) error {
-		params.Logger.Log(ctx, logger.NewText("awesome client"))
+	params.Lifecycle.Append(fx.Hook{
+		OnStart: func(ctx context.Context) error {
+			params.Logger.Log(ctx, logger.NewText("awesome client"))
 
-		return nil
+			return nil
+		},
 	})
 }
