@@ -4,6 +4,7 @@ linters:
   disable:
     - bodyclose
     - depguard
+    - exhaustruct
     - funcorder
     - gochecknoglobals
     - paralleltest
