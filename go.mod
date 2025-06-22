@@ -2,7 +2,7 @@ module github.com/alexfalkowski/go-client-template
 
 go 1.24.0
 
-require github.com/alexfalkowski/go-service/v2 v2.76.0
+require github.com/alexfalkowski/go-service/v2 v2.77.0
 
 require (
 	aidanwoods.dev/go-paseto v1.5.4 // indirect
@@ -19,7 +19,7 @@ require (
 	github.com/beevik/nts v0.2.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bmatcuk/doublestar/v4 v4.6.1 // indirect
-	github.com/casbin/casbin/v2 v2.107.0 // indirect
+	github.com/casbin/casbin/v2 v2.108.0 // indirect
 	github.com/casbin/govaluate v1.3.0 // indirect
 	github.com/cenkalti/backoff/v5 v5.0.2 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
