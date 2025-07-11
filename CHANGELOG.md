@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.450.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.450.0) - 2025-07-11
+
+- [`f2e88db`](https://github.com/alexfalkowski/go-client-template/commit/f2e88db79990640d6ec5d9c7a11b0c2bc2d8dda1) feat(deps): bump github.com/alexfalkowski/go-service/v2 from 2.88.0 to 2.91.0 (#756)
+- [`2c2243f`](https://github.com/alexfalkowski/go-client-template/commit/2c2243f3a5ad7cc4a4940a331d8e0ad5e42e4e28) build(ci): move make clean (#755)
+- [`2511c27`](https://github.com/alexfalkowski/go-client-template/commit/2511c2747d4ff3f9a333a7369cdeac4ab78e8d01) build(ci): add checksum ~/.go-version (#754)
+- [`a729557`](https://github.com/alexfalkowski/go-client-template/commit/a7295573fee693db5b5d5a9df523735ae97cba05) build(deps): upgraded github.com/alexfalkowski/bin (#753)
+
 ## [v0.449.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.449.0) - 2025-07-09
 
 - [`e257885`](https://github.com/alexfalkowski/go-client-template/commit/e257885abf27e213985ecad001be3958bf6e1c18) feat(deps): bump bin from `ce6b0e8` to `d0fdcaa` (#752)
