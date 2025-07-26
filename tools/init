@@ -3,6 +3,7 @@
 set -e
 
 name=$(basename "$(pwd)")
+user=$(whoami)
 
 # Get all the submodules.
 git submodule sync && git submodule update --init
@@ -12,7 +13,7 @@ rm -rf vendor test/vendor go-client-template
 make -C test clean-reports
 
 # Replace name in files.
-find "." -type f -exec sed -i "s/go-client-template/$name/g" {} +
+find "." -type f -not -path './.git*' -exec sed -i "s/go-client-template/$name/g" {} +
 
 # Override test files.
 find "test" -type f -name "*.rb" -exec sed -i "s/Example/${name^}/g" {} +
@@ -26,4 +27,4 @@ make dep && make format && make ruby-fix-lint
 rm -rf "tools" "CHANGELOG.md"
 
 # Create branch.
-git checkout -b "$USER/feat/init" && make msg="init $name" commit push review
+git checkout -b "$user/feat/init" && make msg="init $name" commit push review
