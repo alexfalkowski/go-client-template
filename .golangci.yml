@@ -25,9 +25,6 @@ linters:
       - std-error-handling
     paths:
       - .*\.pb*
-      - third_party$
-      - builtin$
-      - examples$
 formatters:
   enable:
     - gci
@@ -38,6 +35,3 @@ formatters:
     generated: lax
     paths:
       - .*\.pb*
-      - third_party$
-      - builtin$
-      - examples$
