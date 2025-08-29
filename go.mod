@@ -2,7 +2,7 @@ module github.com/alexfalkowski/go-client-template
 
 go 1.25.0
 
-require github.com/alexfalkowski/go-service/v2 v2.130.0
+require github.com/alexfalkowski/go-service/v2 v2.131.0
 
 require (
 	aidanwoods.dev/go-paseto v1.5.4 // indirect
@@ -38,7 +38,7 @@ require (
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/go-playground/validator/v10 v10.27.0 // indirect
-	github.com/go-sprout/sprout v1.0.1 // indirect
+	github.com/go-sprout/sprout v1.0.2 // indirect
 	github.com/go-sql-driver/mysql v1.9.3 // indirect
 	github.com/goccy/go-json v0.10.5 // indirect
 	github.com/goccy/go-yaml v1.18.0 // indirect
