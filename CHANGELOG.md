@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.517.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.517.0) - 2025-10-15
+
+- [`a6eb7db`](https://github.com/alexfalkowski/go-client-template/commit/a6eb7dbbdda7b2bd90a3259b9b58e8caa33123db) feat(deps): bump bin from `09a61a1` to `5563606` (#885)
+- [`25d17df`](https://github.com/alexfalkowski/go-client-template/commit/25d17dff7f68ba5b75c99a457f157fcfaf77faa7) build(ci): use latest published images (#884)
+- [`40a453a`](https://github.com/alexfalkowski/go-client-template/commit/40a453a17347b3264ff85e3fda59cee09f0db276) test(deps): bump sinatra from 4.1.1 to 4.2.0 in /test (#883)
+- [`aefc0bb`](https://github.com/alexfalkowski/go-client-template/commit/aefc0bbb5607ed5411045a9fd02c17df91bce44c) test(deps): bump rack from 3.2.2 to 3.2.3 in /test (#882)
+- [`01c21a6`](https://github.com/alexfalkowski/go-client-template/commit/01c21a6a3824f4028a23378a5862eb1710df63e8) build(ci): use latest published images (#881)
+
 ## [v0.516.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.516.0) - 2025-10-10
 
 - [`25a984e`](https://github.com/alexfalkowski/go-client-template/commit/25a984e2a5561c9c51f7a088569c74ddbe5b2206) feat(deps): bump github.com/alexfalkowski/go-service/v2 from 2.170.0 to 2.171.0 (#880)
