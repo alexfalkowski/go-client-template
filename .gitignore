@@ -4,3 +4,5 @@ vendor
 *.cov
 *.out
 /go-client-template
+dist
+.source-key
