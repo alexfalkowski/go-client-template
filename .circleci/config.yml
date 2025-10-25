@@ -27,7 +27,7 @@ jobs:
           name: save go cache
           key: go-client-template-go-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}-{{ checksum ".source-key" }}
           paths:
-            - /home/circleci/go/pkg/mod
+            - ~/go/pkg/mod
       - save_cache:
           name: save ruby cache
           key: go-client-template-ruby-cache-{{ checksum "test/Gemfile.lock" }}-{{ checksum "~/.ruby-version" }}-{{ checksum ".source-key" }}
@@ -59,7 +59,7 @@ jobs:
           name: save go build cache
           key: go-client-template-go-build-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}-{{ checksum ".source-key" }}
           paths:
-            - /home/circleci/.cache/go-build
+            - ~/.cache/go-build
       - run: make coverage
       - store_test_results:
           path: test/reports
@@ -76,6 +76,12 @@ jobs:
           method: blobless
       - run: git submodule sync
       - run: git submodule update --init
+      - run: make source-key
+      - restore_cache:
+          name: restore go cache
+          keys:
+            - go-client-template-go-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}-{{ checksum ".source-key" }}
+            - go-client-template-go-cache-
       - run: version
       - run: package
     resource_class: large
