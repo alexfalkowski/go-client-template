@@ -82,6 +82,11 @@ jobs:
           keys:
             - go-client-template-go-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}-{{ checksum ".source-key" }}
             - go-client-template-go-cache-
+      - restore_cache:
+          name: restore go build cache
+          keys:
+            - go-client-template-go-build-cache-{{ checksum "go.sum" }}-{{ checksum "~/.go-version" }}-{{ checksum ".source-key" }}
+            - go-client-template-go-build-cache-
       - run: version
       - run: package
     resource_class: large
