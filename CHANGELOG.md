@@ -6,6 +6,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.550.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.550.0) - 2025-11-26
+
+- [`1b0af9e`](https://github.com/alexfalkowski/go-client-template/commit/1b0af9e93c79a5c1b6f0ebf9a702ebb08eaa3cc6) feat(deps): upgraded github.com/alexfalkowski/go-service/v2 to v2.209.0 (#936)
+- [`021ddc9`](https://github.com/alexfalkowski/go-client-template/commit/021ddc9ae53cf7e001fc3c9f08d78992e2861704) build(ci): use latest published images (#935)
+
 ## [v0.549.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.549.0) - 2025-11-24
 
 - [`51bacfe`](https://github.com/alexfalkowski/go-client-template/commit/51bacfe0beef2d152afeeaee326e8ad6ac594816) feat(strings): use strings.Empty (#934)
