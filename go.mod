@@ -2,7 +2,7 @@ module github.com/alexfalkowski/go-client-template
 
 go 1.25.0
 
-require github.com/alexfalkowski/go-service/v2 v2.214.0
+require github.com/alexfalkowski/go-service/v2 v2.216.0
 
 require (
 	aidanwoods.dev/go-paseto v1.5.4 // indirect
@@ -13,14 +13,14 @@ require (
 	github.com/KimMachineGun/automemlimit v0.7.5 // indirect
 	github.com/XSAM/otelsql v0.40.0 // indirect
 	github.com/aead/cmac v0.0.0-20160719120800-7af84192f0b1 // indirect
-	github.com/alexfalkowski/go-health/v2 v2.4.0 // indirect
+	github.com/alexfalkowski/go-health/v2 v2.5.0 // indirect
 	github.com/arl/statsviz v0.8.0 // indirect
 	github.com/avfs/avfs v0.35.0 // indirect
 	github.com/beevik/ntp v1.5.0 // indirect
 	github.com/beevik/nts v0.2.1 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bmatcuk/doublestar/v4 v4.9.1 // indirect
-	github.com/casbin/casbin/v2 v2.134.0 // indirect
+	github.com/casbin/casbin/v2 v2.135.0 // indirect
 	github.com/casbin/govaluate v1.10.0 // indirect
 	github.com/cenkalti/backoff/v5 v5.0.3 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
