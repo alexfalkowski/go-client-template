@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.574.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.574.0) - 2026-01-20
+
+- [`11ea4fc`](https://github.com/alexfalkowski/go-client-template/commit/11ea4fcaadae03441c826a623536f03c0951fad3) feat(deps): upgraded github.com/alexfalkowski/go-service/v2 to v2.237.0 (#1001)
+- [`ad8ddd1`](https://github.com/alexfalkowski/go-client-template/commit/ad8ddd1034186b793900fd44a67df766733ba997) build(ci): use latest published images (#1000)
+- [`2079f56`](https://github.com/alexfalkowski/go-client-template/commit/2079f569c831625afd72f181cffd8216a9944b71) build(deps): upgraded github.com/alexfalkowski/bin (#999)
+- [`f3445ac`](https://github.com/alexfalkowski/go-client-template/commit/f3445ac7122377913ed9f3db20bb97d51ba4c8e2) build(ci): use latest published images (#998)
+
 ## [v0.573.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.573.0) - 2026-01-16
 
 - [`425a33a`](https://github.com/alexfalkowski/go-client-template/commit/425a33adadaa1939fb336f1e5e99ab37bb0e6f4c) feat(deps): upgraded github.com/alexfalkowski/go-service/v2 to v2.236.0 (#997)
