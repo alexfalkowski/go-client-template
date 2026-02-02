@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.578.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.578.0) - 2026-02-02
+
+- [`8ddeb1f`](https://github.com/alexfalkowski/go-client-template/commit/8ddeb1fa744ca42029ed601e0007aa95928a205f) feat(deps): bump github.com/alexfalkowski/go-service/v2 from 2.245.0 to 2.247.0 (#1013)
+- [`f4d8f55`](https://github.com/alexfalkowski/go-client-template/commit/f4d8f551153237c1728e49fb3e1b954f613c2f59) build(ci): use latest published images (#1012)
+- [`b56ad8f`](https://github.com/alexfalkowski/go-client-template/commit/b56ad8f5af27b4422e3f5aa40b9fb88183736d32) build(ci): use latest published images (#1010)
+- [`fc7a52a`](https://github.com/alexfalkowski/go-client-template/commit/fc7a52a67af192cd5dfff299590021dd9364c70f) test(deps): bump rubocop from 1.82.1 to 1.84.0 in /test (#1009)
+
 ## [v0.577.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.577.0) - 2026-01-27
 
 - [`0697160`](https://github.com/alexfalkowski/go-client-template/commit/069716063fcd8851d1d015a30adb31c3d52e3a4d) feat(deps): bump github.com/alexfalkowski/go-service/v2 from 2.243.0 to 2.245.0 (#1008)
