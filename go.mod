@@ -2,7 +2,7 @@ module github.com/alexfalkowski/go-client-template
 
 go 1.25.0
 
-require github.com/alexfalkowski/go-service/v2 v2.267.0
+require github.com/alexfalkowski/go-service/v2 v2.276.0
 
 require (
 	aidanwoods.dev/go-paseto v1.6.0 // indirect
@@ -13,7 +13,8 @@ require (
 	github.com/KimMachineGun/automemlimit v0.7.5 // indirect
 	github.com/XSAM/otelsql v0.41.0 // indirect
 	github.com/aead/cmac v0.0.0-20160719120800-7af84192f0b1 // indirect
-	github.com/alexfalkowski/go-health/v2 v2.11.0 // indirect
+	github.com/alexfalkowski/go-health/v2 v2.12.0 // indirect
+	github.com/alexfalkowski/go-sync v1.5.0 // indirect
 	github.com/arl/statsviz v0.8.0 // indirect
 	github.com/avfs/avfs v0.35.0 // indirect
 	github.com/beevik/ntp v1.5.0 // indirect
@@ -46,7 +47,7 @@ require (
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/gorilla/websocket v1.5.3 // indirect
 	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.3.3 // indirect
-	github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.7 // indirect
+	github.com/grpc-ecosystem/grpc-gateway/v2 v2.27.8 // indirect
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
@@ -60,7 +61,7 @@ require (
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/compress v1.18.4 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect
-	github.com/lib/pq v1.11.1 // indirect
+	github.com/lib/pq v1.11.2 // indirect
 	github.com/linxGnu/mssqlx v1.1.8 // indirect
 	github.com/lmittmann/tint v1.1.3 // indirect
 	github.com/lufia/plan9stats v0.0.0-20251013123823-9fd1530e3ec3 // indirect
