@@ -6,6 +6,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+## [v0.602.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.602.0) - 2026-03-12
+
+- [`3ad44fb`](https://github.com/alexfalkowski/go-client-template/commit/3ad44fb5b8cbfca2a1c8e483e09829c25448e4e5) feat(deps): bump github.com/alexfalkowski/go-service/v2 from 2.298.0 to 2.302.0 (#1085)
+- [`754cf9e`](https://github.com/alexfalkowski/go-client-template/commit/754cf9ef6cddcaad38c7a05f5c19609dcb842768) test(deps): bump ruby-lsp from 0.26.7 to 0.26.8 in /test (#1084)
+- [`ba70017`](https://github.com/alexfalkowski/go-client-template/commit/ba70017f6b3f8332f42e59ec2264d2652c5634d6) build(deps): upgraded github.com/alexfalkowski/bin (#1083)
+- [`4dd9add`](https://github.com/alexfalkowski/go-client-template/commit/4dd9addc6628968eb358401ce6b5d76c120651ed) build(ci): use alexfalkowski/release:5.58 (#1082)
+- [`3ac9242`](https://github.com/alexfalkowski/go-client-template/commit/3ac9242c5b873151dad3881796ae087a6fbdf135) test(deps): upgraded bundler to 4.0.8 (#1081)
+- [`82b82b5`](https://github.com/alexfalkowski/go-client-template/commit/82b82b5ba77836ebe0fe3a7dddc3b3fd35534a9b) build(ci): use latest published images (#1080)
+- [`d3614b3`](https://github.com/alexfalkowski/go-client-template/commit/d3614b36b0b734984ca17381fef7c3c9dbf9aefb) build(deps): upgraded github.com/alexfalkowski/bin (#1079)
+- [`07a6792`](https://github.com/alexfalkowski/go-client-template/commit/07a6792ad74f9a50e908582bb7ef255a820a4cf1) build(deps): upgraded github.com/alexfalkowski/bin (#1078)
+- [`0a68c5e`](https://github.com/alexfalkowski/go-client-template/commit/0a68c5eab3963657e0f86af1619d6c854e7341e8) build(deps): upgraded github.com/alexfalkowski/bin (#1077)
+- [`575130c`](https://github.com/alexfalkowski/go-client-template/commit/575130ccb68ad6cca8158d774e5b530229d4b87f) build(ci): add wait-all (#1076)
+- [`daa33cf`](https://github.com/alexfalkowski/go-client-template/commit/daa33cfa240778f1fb14e866db4b3e1962665796) build(ci): use latest published images (#1075)
+- [`36584fa`](https://github.com/alexfalkowski/go-client-template/commit/36584faeccb8d3d21389dbfe7e4d2adb4a25a87b) build(ci): use latest published images (#1074)
+- [`7bf3d8f`](https://github.com/alexfalkowski/go-client-template/commit/7bf3d8f6e37e95e87e8e06e372c3ad30fa8cd5f2) build(ci): use latest published images (#1073)
+
 ## [v0.601.0](https://github.com/alexfalkowski/go-client-template/releases/tag/v0.601.0) - 2026-03-09
 
 - [`54aea2e`](https://github.com/alexfalkowski/go-client-template/commit/54aea2e7fde2b99fb52ab3905fc24d94ab549da9) feat(deps): bump github.com/alexfalkowski/go-service/v2 from 2.295.0 to 2.298.0 (#1072)
