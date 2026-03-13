@@ -21,7 +21,7 @@ find "test" -type f -name "*.rb" -exec sed -i "s/example/$name/g" {} +
 mv "test/lib/example.rb" "test/lib/$name.rb"
 
 # Fix style issues.
-make dep && make format && make ruby-fix-lint
+make dep && make format && make fix-lint
 
 # Remove files that are not needed.
 rm -rf "tools" "CHANGELOG.md"
