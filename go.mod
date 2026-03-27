@@ -2,7 +2,7 @@ module github.com/alexfalkowski/go-client-template
 
 go 1.26.0
 
-require github.com/alexfalkowski/go-service/v2 v2.313.0
+require github.com/alexfalkowski/go-service/v2 v2.313.5
 
 require (
 	aidanwoods.dev/go-paseto v1.6.0 // indirect
