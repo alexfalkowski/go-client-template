@@ -7,7 +7,7 @@ require 'base64'
 module Example
   class << self
     def client_config
-      @client_config ||= Nonnative.configurations('.config/client.yml')
+      @client_config ||= Nonnative::ConfigurationFile.load('.config/client.yml')
     end
   end
 end
