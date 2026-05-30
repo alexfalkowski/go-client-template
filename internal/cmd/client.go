@@ -9,5 +9,5 @@ import (
 // RegisterClient for cmd.
 func RegisterClient(command cli.Commander) {
 	cmd := command.AddClient("client", "Start client", client.Module)
-	cmd.AddInput(strings.Empty)
+	cmd.AddConfig(strings.Empty)
 }
