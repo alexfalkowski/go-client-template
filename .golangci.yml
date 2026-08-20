@@ -16,6 +16,7 @@ linters:
     - tagalign
     - wsl
     - wsl_v5
+    - exhaustruct_v5
   settings:
     lll:
       line-length: 140
