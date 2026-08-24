@@ -2,7 +2,7 @@ module github.com/alexfalkowski/go-client-template
 
 go 1.27.0
 
-require github.com/alexfalkowski/go-service/v2 v2.760.0
+require github.com/alexfalkowski/go-service/v2 v2.761.0
 
 require (
 	aidanwoods.dev/go-paseto v1.6.0 // indirect
@@ -45,7 +45,7 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.30.0 // indirect
 	github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
 	github.com/hashicorp/go-retryablehttp v0.7.8 // indirect
-	github.com/hjson/hjson-go/v4 v4.6.0 // indirect
+	github.com/hjson/hjson-go/v4 v4.7.0 // indirect
 	github.com/iancoleman/strcase v0.3.0 // indirect
 	github.com/jackc/pgpassfile v1.0.0 // indirect
 	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
