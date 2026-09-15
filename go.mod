@@ -2,7 +2,7 @@ module github.com/alexfalkowski/go-client-template
 
 go 1.27.0
 
-require github.com/alexfalkowski/go-service/v2 v2.781.0
+require github.com/alexfalkowski/go-service/v2 v2.782.0
 
 require (
 	aidanwoods.dev/go-paseto v1.6.0 // indirect
@@ -18,7 +18,7 @@ require (
 	github.com/arl/statsviz v0.8.2 // indirect
 	github.com/avfs/avfs v0.35.0 // indirect
 	github.com/beevik/ntp v1.5.0 // indirect
-	github.com/beevik/nts v0.3.1 // indirect
+	github.com/beevik/nts v0.3.2 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/bmatcuk/doublestar/v4 v4.10.0 // indirect
 	github.com/casbin/casbin/v2 v2.135.0 // indirect
@@ -127,7 +127,7 @@ require (
 	golang.org/x/sys v0.48.0 // indirect
 	golang.org/x/text v0.42.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20260831171406-18b4a7587f8a // indirect
-	google.golang.org/genproto/googleapis/rpc v0.0.0-20260908043556-f8649ddbbfe6 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20260911204522-f61a6ca850bd // indirect
 	google.golang.org/grpc v1.83.2 // indirect
 	google.golang.org/protobuf v1.36.12 // indirect
 )
