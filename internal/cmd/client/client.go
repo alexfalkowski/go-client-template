@@ -1,22 +1,22 @@
 package client
 
 import (
-	"github.com/alexfalkowski/go-service/v2/context"
-	"github.com/alexfalkowski/go-service/v2/di"
-	"github.com/alexfalkowski/go-service/v2/telemetry/logger"
+	"github.com/alexfalkowski/go-service/v3/context"
+	"github.com/alexfalkowski/go-service/v3/telemetry/logger"
+	"github.com/alexfalkowski/go-signal/v2"
 )
 
 // Params for config.
 type Params struct {
-	di.In
+	signal.In
 
-	Lifecycle di.Lifecycle
+	Lifecycle signal.Lifecycle
 	Logger    *logger.Logger
 }
 
 // Start the client.
 func Start(params Params) {
-	params.Lifecycle.Append(di.Hook{
+	params.Lifecycle.Append(signal.Hook{
 		OnStart: func(ctx context.Context) error {
 			params.Logger.Log(ctx, logger.NewText("awesome client"))
 
