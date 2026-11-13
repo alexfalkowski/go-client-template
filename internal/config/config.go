@@ -1,6 +1,6 @@
 package config
 
-import "github.com/alexfalkowski/go-service/v2/config"
+import "github.com/alexfalkowski/go-service/v3/config"
 
 // Config for the client.
 type Config struct {
