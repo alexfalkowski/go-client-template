@@ -3,7 +3,7 @@ module github.com/alexfalkowski/go-client-template
 go 1.27.0
 
 require (
-	github.com/alexfalkowski/go-service/v3 v3.7.0
+	github.com/alexfalkowski/go-service/v3 v3.8.0
 	github.com/alexfalkowski/go-signal/v2 v2.1.0
 )
 
