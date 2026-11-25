@@ -3,7 +3,7 @@ module github.com/alexfalkowski/go-client-template
 go 1.27.0
 
 require (
-	github.com/alexfalkowski/go-service/v3 v3.19.0
+	github.com/alexfalkowski/go-service/v3 v3.20.0
 	github.com/alexfalkowski/go-signal/v2 v2.1.0
 )
 
@@ -16,7 +16,7 @@ require (
 	github.com/KimMachineGun/automemlimit v1.0.2 // indirect
 	github.com/XSAM/otelsql v0.44.0 // indirect
 	github.com/aead/cmac v0.0.0-20160719120800-7af84192f0b1 // indirect
-	github.com/alexfalkowski/go-health/v2 v2.44.0 // indirect
+	github.com/alexfalkowski/go-health/v2 v2.45.0 // indirect
 	github.com/alexfalkowski/go-sync v1.40.0 // indirect
 	github.com/arl/statsviz v0.8.2 // indirect
 	github.com/avfs/avfs v0.35.0 // indirect
